@@ -1,0 +1,36 @@
+  119  if [ $# -eq 0 ]; then   echo "Start interactive shell";   exec "$BASH" --login -i; else   echo "Start shell with command";   exec "$BASH" -c "$*"; fi
+  120  pwd
+  121  P:
+  122  pwd
+  123  cd P:\vani
+  124  cd carroll
+  125  cd se_Assignments
+  126  pwd
+  127  clear
+  128  pwd
+  129  git clone https://github.com/vaniofit/Project_SE.git
+  130  cd Project_SE
+  131  pwd
+  132  git status
+  133  git checkout vani_working_copy
+  134  git status
+  135  git checkout -b vani_working_copy
+  136  git status
+  137  git push origin vani_working_copy
+  138  git push origin :vani_working_copy
+  139  git checkout -b vani_working_copy
+  140  git push origin vani_working_copy
+  141  git push --all origin
+  142  git commit test
+  143  git commit test
+  144  git commit all
+  145  git push --all origin
+  146  git commit
+  147  pwd
+  148  ls
+  149  cat test
+  150  git add test
+  151  git commit
+  152  git commit -m "here copy"
+  153  git push origin vani_working_copy
+  154  history
